@@ -13,10 +13,10 @@ public class Node {
     private Node left;
     private Node right;
 
-    public Node(Contacto contacto, Node left, Node right) {
+    public Node(Contacto contacto) {
         this.contacto = contacto;
-        this.left = left;
-        this.right = right;
+        left = null;
+        right = null;
     }
 
     public Contacto getContacto() {
